@@ -1,6 +1,7 @@
 <%@page import="java.util.Map"%>
 <%@page import="servlet.Database" %>
 <%@page import="java.util.List"%>
+<%@page import="java.io.PrintStream" %>
 
 <br>
 <html><body><form><h2 align='center' style='color:darkred'>Confirmation Page</h2>
@@ -213,6 +214,65 @@ String requestBy = request.getParameter("who");
 	{
 		updateCalc1ID9 = id9AmtAvailable - intreqID9;
 	}
+	
+	//Writing to an output file for record keeping
+	
+	PrintStream fileOut = new PrintStream("C:/Users/aimly/BeatTheCov-workspace/BeatTheCov/WebContent/output.txt");
+	System.setOut(fileOut);
+	System.out.println("Hand Sanitizer: ");
+	System.out.println("Amount Available: " + id1AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID1);
+	System.out.println("Amount Left After Request" + invUpdate1);
+	System.out.println(" ");
+	
+	System.out.println("Face Masks: ");
+	System.out.println("Amount Available: " + id2AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID2);
+	System.out.println("Amount Left After Request" + invUpdate2);
+	System.out.println(" ");
+	
+	System.out.println("Home Surgical Masks: ");
+	System.out.println("Amount Available: " + id3AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID3);
+	System.out.println("Amount Left After Request" + invUpdate3);
+	System.out.println(" ");
+	
+	System.out.println("Cavi Wipes: ");
+	System.out.println("Amount Available: " + id4AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID4);
+	System.out.println("Amount Left After Request" + invUpdate4);
+	System.out.println(" ");
+	
+	System.out.println("Disinfectant Wipes: ");
+	System.out.println("Amount Available: " + id5AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID5);
+	System.out.println("Amount Left After Request" + invUpdate5);
+	System.out.println(" ");
+	
+	System.out.println("Disinfectant Sprays: ");
+	System.out.println("Amount Available: " + id6AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID6);
+	System.out.println("Amount Left After Request" + invUpdate6);
+	System.out.println(" ");
+	
+	System.out.println("Protective Suits: ");
+	System.out.println("Amount Available: " + id7AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID7);
+	System.out.println("Amount Left After Request" + invUpdate7);
+	System.out.println(" ");
+	
+	System.out.println("Protective Goggles: ");
+	System.out.println("Amount Available: " + id8AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID8);
+	System.out.println("Amount Left After Request" + invUpdate8);
+	System.out.println(" ");
+	
+	System.out.println("Disposable Shoe Cover: ");
+	System.out.println("Amount Available: " + id9AmtAvailable);
+	System.out.println("Amount Requested: " + intreqID9);
+	System.out.println("Amount Left After Request" + invUpdate9);
+	System.out.println(" ");
+	
 	%>
 	
 	<!-- NOTE: servlets.ConfirmationPage.java redirected this parameter to us here. View the notes in that Java file to see how. -->
