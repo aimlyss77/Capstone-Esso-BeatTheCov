@@ -219,6 +219,8 @@ String requestBy = request.getParameter("who");
 	
 	PrintStream fileOut = new PrintStream("C:/Users/aimly/BeatTheCov-workspace/BeatTheCov/WebContent/output.txt");
 	System.setOut(fileOut);
+	System.out.println("Requester: " + requestBy);
+	System.out.println(" ");
 	System.out.println("Hand Sanitizer: ");
 	System.out.println("Amount Available: " + id1AmtAvailable);
 	System.out.println("Amount Requested: " + intreqID1);
