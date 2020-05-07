@@ -1,37 +1,48 @@
+Requester: Dr. Alan Wang
+ 
 Hand Sanitizer: 
-Amount Available: 122
-Amount Requested: 1
+Amount Available: 111
+Amount Requested: 10
+Amount Left After Request101
  
 Face Masks: 
-Amount Available: 141
-Amount Requested: 1
+Amount Available: 131
+Amount Requested: 20
+Amount Left After Request111
  
 Home Surgical Masks: 
-Amount Available: 112
-Amount Requested: 1
+Amount Available: 121
+Amount Requested: 10
+Amount Left After Request111
  
 Cavi Wipes: 
-Amount Available: 152
-Amount Requested: 1
+Amount Available: 141
+Amount Requested: 20
+Amount Left After Request121
  
 Disinfectant Wipes: 
-Amount Available: 92
-Amount Requested: 1
+Amount Available: 81
+Amount Requested: 15
+Amount Left After Request66
  
 Disinfectant Sprays: 
-Amount Available: 182
-Amount Requested: 1
+Amount Available: 171
+Amount Requested: 5
+Amount Left After Request166
  
 Protective Suits: 
-Amount Available: 172
-Amount Requested: 1
+Amount Available: 161
+Amount Requested: 10
+Amount Left After Request151
  
 Protective Goggles: 
-Amount Available: 162
-Amount Requested: 1
+Amount Available: 151
+Amount Requested: 10
+Amount Left After Request141
  
 Disposable Shoe Cover: 
-Amount Available: 152
-Amount Requested: 1
+Amount Available: 141
+Amount Requested: 10
+Amount Left After Request131
  
-2-FM
+4-CW
